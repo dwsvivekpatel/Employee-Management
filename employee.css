@@ -1,0 +1,101 @@
+h4.err_mesaage {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+a.msgmsg {
+    display: block;
+    margin-top: 5px;
+    border: 2px solid black;
+    width: max-content;
+    margin: 8px auto;
+    padding: 10px 20px;
+    text-decoration-line: none;
+}
+
+.employe-management .container,
+.entry-content>.form_container form {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.entry-content>section.employe-management,
+.entry-content>.form_container {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+.employe-management__main {
+    padding: 15px;
+    border: 1px solid #D4D4D4;
+    overflow: auto;
+}
+
+.employe-management__table {
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+table,
+th,
+td {
+    border: 1px solid #D4D4D4;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 15px;
+}
+
+.employe-management__table tr td:last-child span:first-child {
+    float: left;
+}
+
+.employe-management__table tr td:last-child span:last-child {
+    float: right;
+}
+
+.employe-management__table thead tr {
+    background: #E3E3E3;
+}
+
+.employe-management__table thead tr th {
+    color: #545454;
+}
+
+.employe-management__table tbody tr {
+    background: #F3F1F2;
+}
+
+.employe-management__table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.entry-content>.form_container form .form__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entry-content>.form_container form .form__main .form__main--inner {
+    max-width: 48%;
+    width: 100%;
+}
+
+form .form__main .form__main--inner label {
+    display: block;
+}
+
+form .form__main .form__main--inner input {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
